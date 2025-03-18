@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.vue linguist-language=Vue
