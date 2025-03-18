@@ -1,0 +1,32 @@
+{
+    "name": "hammer-kits",
+    "version": "0.0.1",
+    "description": "a hammer cli to create a template project",
+    "main": "src/index.js",
+    "bin": {
+        "hammer": "bin/cli.js"
+    },
+    "repository": {
+        "url": "tzyito/hammer-kits",
+        "type": "git"
+    },
+    "scripts": {
+        "i:wxt-vue": "pnpm -F wxt-vue install",
+        "i:starter-uno": "pnpm -F starter-uno install"
+    },
+    "keywords": [
+        "hammer",
+        "cli",
+        "template",
+        "project",
+        "setup"
+    ],
+    "author": "tzyito",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^11.1.0",
+        "inquirer": "^8.2.5",
+        "ora": "^5.4.1"
+    }
+}
