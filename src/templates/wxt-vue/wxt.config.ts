@@ -1,5 +1,5 @@
 import { defineConfig } from 'wxt'
-
+import { resolve } from 'path'
 // See https://wxt.dev/api/config.html
 export default defineConfig({
   extensionApi: 'chrome',
@@ -13,5 +13,6 @@ export default defineConfig({
   },
   unocss: {
     // excludeEntrypoints: ['background'],
+    configOrPath: resolve(__dirname, './unocss.config.ts'),
   },
 })
